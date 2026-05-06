@@ -1,0 +1,9 @@
+diff a/Python/manage.py b/Python/manage.py	(rejected hunks)
+@@ -6,7 +6,6 @@
+ 
+ def main():
+     """Run administrative tasks."""
+-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MVCLab3.settings')
+     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
+     try:
+         from django.core.management import execute_from_command_line
